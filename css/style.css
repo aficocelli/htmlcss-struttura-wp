@@ -16,7 +16,37 @@
   margin-bottom: 10px;
 }
 /* formattazione sezione con immagine principale */
-
+.banner{
+  margin-bottom: 10px;
+}
 .banner img{
   width:100%;
+}
+
+/* formattazione sezione centrale */
+
+.titolo-sezione {
+  height:5vh;
+  background-color: #ABCFE7;
+}
+
+.colonna{
+  height:40vh;
+  width:30%;
+  border:1px solid black;
+  background-color: #ABCFE7;
+  float:left;
+}
+/* aggiunta proprietà clearfix */
+
+.parte-centrale::after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
+/* formattazione del footer */
+
+.credits{
+  background-color: #8801FE;
 }

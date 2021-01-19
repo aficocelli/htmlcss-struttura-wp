@@ -28,14 +28,27 @@
 .titolo-sezione {
   height:5vh;
   background-color: #ABCFE7;
+  margin-bottom: 2%;
+}
+
+.parte-centrale{
+  background-color: #0483FE;
 }
 
 .colonna{
   height:40vh;
-  width:30%;
-  border:1px solid black;
   background-color: #ABCFE7;
   float:left;
+  margin-bottom: 2%;
+}
+
+.c-sinistra, .c-destra{
+  width:24%;
+}
+
+.c-centrale{
+  width:48%;
+  margin: 0 2%;
 }
 /* aggiunta proprietà clearfix */
 

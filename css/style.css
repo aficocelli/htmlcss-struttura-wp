@@ -24,11 +24,12 @@
 }
 
 /* formattazione sezione centrale */
-
-.titolo-sezione {
-  height:5vh;
+.titolo-sezione, .colonna {
   background-color: #ABCFE7;
   margin-bottom: 2%;
+}
+.titolo-sezione {
+  height:5vh;  
 }
 
 .parte-centrale{
@@ -37,9 +38,7 @@
 
 .colonna{
   height:60vh;
-  background-color: #ABCFE7;
   float:left;
-  margin-bottom: 2%;
 }
 
 .c-sinistra, .c-destra{
